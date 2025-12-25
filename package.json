@@ -1,0 +1,42 @@
+{
+    "name": "@elcarte/blocks",
+    "version": "0.0.1",
+    "description": "Base React components for Elcarte e-commerce platform",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/elcarte/elcarte-blocks.git"
+    },
+    "homepage": "https://github.com/elcarte/elcarte-blocks#readme",
+    "bugs": {
+        "url": "https://github.com/elcarte/elcarte-blocks/issues"
+    },
+    "keywords": [
+        "elcarte",
+        "react",
+        "components",
+        "ecommerce",
+        "cms"
+    ],
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "react": ">=18.0.0",
+        "react-dom": ">=18.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "@types/react": "^19.0.0",
+        "@types/react-dom": "^19.0.0"
+    }
+}
