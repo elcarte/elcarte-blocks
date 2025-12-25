@@ -1,6 +1,6 @@
 {
     "name": "@elcarte/blocks",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Base React components for Elcarte e-commerce platform",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
